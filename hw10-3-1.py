@@ -5,10 +5,10 @@
 
 def count_odds(lst):
     num_odds = 0
-    num = 1
-    while num < num_odds+1:
-        if num % 2 != 0: 
-            num_odds += num
+    num = 0
+    while num < len(lst):
+        if lst[num] % 2 != 0:
+            num_odds += 1
             num += 1
     return num_odds
 
