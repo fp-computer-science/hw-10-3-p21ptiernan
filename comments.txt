@@ -1,0 +1,8 @@
+Question 1
+You are always comparing the same value since num does not change unless it is incremented.
+
+Question 2
+Not sure what you are doing with some of this. It has the correct structure, but the details are off.
+
+Question 3
+You can't take lst+1. You would have to use the length like you did in the other problems.
